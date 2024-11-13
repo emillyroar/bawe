@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rastreamento de Encomendas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <header class="hero">
+        <nav class="navbar">
+            <a href="#" class="logo">
+                <img src="LogoBawe.png" alt="BAWE Express Logo" style="height: 250px;">
+            </a>
+        </nav>
+<div class="hero-content">
+<h2>Segurança e Tecnologia em Movimento</h2>
+<p>Rastreamento em tempo real e segurança avançada para sua mercadoria.
+</p>
+
+  <div class="container">
+    <form id="trackingForm">
+      <label for="trackingNumber">Número de Rastreio:</label>
+      <input type="text" id="trackingNumber" name="trackingNumber" placeholder="Ex: AB123456789BR" required>
+      <button type="submit">Rastrear</button>
+    </form>
+
+    <div id="trackingResult" class="hidden">
+      <h2>Informações de Rastreio</h2>
+      <div id="status"></div>
+      <div id="details"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
