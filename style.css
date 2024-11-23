@@ -79,6 +79,7 @@
   
   .hidden {
     display: none;
+
   }
   
   footer {
@@ -86,5 +87,17 @@
     margin-top: 40px;
     font-size: 0.9em;
     color: #777;
+  }
+
+  img[src="Map.png"] {
+    width: 100%;
+    height: auto;
+  }
+
+  label {
+    color: black;
+  }
+  h3 {
+    color: black;
   }
   

@@ -26,23 +26,23 @@ document.getElementById("trackingForm").addEventListener("submit", function(even
   // Função para simular a resposta de rastreio
   function simulateTrackingData(trackingNumber) {
     return {
-      status: "Entregue",
       events: [
         {
-          date: "13/11/2024 16:00",
-          location: "Brasília - DF",
-          description: "Objeto entregue ao destinatário"
+          date: "01/01/2024 01:00",
+          location: "Cidade - UF",
+          description: "Observações"
         },
         {
-          date: "13/11/2024 14:30",
-          location: "Brasília - DF",
-          description: "Objeto saiu para entrega"
+          date: "01/01/2024 01:00",
+          location: "Cidade - UF",
+          description: "Observações"
         },
         {
-          date: "11/11/2024 08:15",
-          location: "Curitiba - PR",
-          description: "Objeto coletado"
+          date: "01/01/2024 01:00",
+          location: "Cidade - UF",
+          description: "Observações"
         }
+
       ]
     };
   }
